@@ -36,3 +36,6 @@ let priceWithDiscount = (total *(100-discount)*0.01);
 console.log('випадковa знижкa і сумa до оплати округленa до 2 знаків після коми:', priceWithDiscount.toFixed(2) ); 
 
 
+console.log (`Шаблонний рядок: максимальна вартість товару: ${Math.max(price1, price2, price3)}, мінімальна вартість товару ${Math.min(price1, price2, price3)}, ціла частина вартості кожного товару: ${ Math.trunc(price1), Math.floor(price2), Math.floor(price3)} ,
+сума цілих частин вартості товару: ${ Math.trunc(price1) + Math.floor(price2) + Math.floor(price3)}, сумa товарів округленa до сотень: ${Math.round(total / 100) * 100}, сума решти, при оплаті всіх товарів (без округлення),якщо клієнт платить 500 грн.: ${rest}
+середнє значення цін, округлене до другого знаку після коми: ${averague.toFixed(2)}`);
