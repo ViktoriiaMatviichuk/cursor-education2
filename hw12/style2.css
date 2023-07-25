@@ -1,0 +1,24 @@
+body {
+    background-image: url(./star-wars-trivia-yoda.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+ul {
+ 
+    background-color: rgb(87, 87, 87);
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px #0800ff;
+    opacity: 50%;
+    width: 300px;
+    margin-top: 10px;
+    text-align: center;
+    margin-top: 300px;
+
+  }
